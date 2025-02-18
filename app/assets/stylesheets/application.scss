@@ -160,7 +160,7 @@ body {
   width: 100%;
   top: 0;
   position: relative;
-  background-image: url("wanstead_wags.png");
+  background-image: url("travel_blog_video.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,12 +240,9 @@ body {
 }
 
 .wanstead-wags-title {
-  font-family: "Abril Fatface", serif!important;
-  font-optical-sizing: auto;
+  font-family: "Higuen Serif";
+  font-weight: normal;
   font-style: normal;
-  font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
   color: #FFAFDA;
   font-size: 5rem;
 }
@@ -295,7 +292,9 @@ body {
   text-shadow: 2px 2px 10px black;
   letter-spacing: 1px;
   color: #efede7e6;
-  font-family: "Michroma", serif!important;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .button {
@@ -305,11 +304,11 @@ body {
   font-style: normal;
   text-decoration: none;
   font-size: 2rem;
-  color: #011712;
+  color: #efede7e6;
   padding: 16px 40px;
-  background: #40FFB5;
-  border-color: #40FFB5 !important;
-  box-shadow: 5px 10px #011712;
+  // background: #40FFB5;
+  border-color: #efede7e6 !important;
+  // box-shadow: 5px 10px #011712;
   border: solid;
   border-width: 1px;
   font-size: 20px;
