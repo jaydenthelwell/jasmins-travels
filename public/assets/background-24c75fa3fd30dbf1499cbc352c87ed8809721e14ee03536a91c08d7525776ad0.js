@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
   });
 
   if (currentSection) {
-    if (currentSection.classList.contains('image-bg')) {
+    if (currentSection.classList.contains('video-bg')) {
       navbar.classList.add('transparent');
       navbar.classList.remove('colored');
     } else if (currentSection.classList.contains('color-bg')) {
