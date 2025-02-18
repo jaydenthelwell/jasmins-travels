@@ -45,11 +45,11 @@ html, body {
 }
 
 .navbar-dark-green {
-  background-color: #011712 !important;
+  background-color: #032B22 !important;
 }
 
 .navbar-light-pink {
-  background-color: #F4CEE2 !important;
+  background-color: #FFAFDA !important;
 }
 
 .navbar-light-cream {
@@ -116,8 +116,7 @@ body {
 }
 
 .text {
-  font-family: "Lato", serif, sans-serif !important;
-  font-style: normal;
+  font-family: 'Cormorant Garamond';
   text-decoration: none;
   color: #EFEDE7;
   font-size: 17px;
@@ -159,8 +158,20 @@ body {
   padding: 0;
 }
 
-.blogs-description {
-  font-family: "Abril Fatface", serif!important;
+.blogs-title {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  max-width: 400px;
+  font-size: 20px;
+  text-align: center;
+  color: #032B22;
+  padding: 0;
+}
+
+.travel-title {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -169,9 +180,7 @@ body {
   text-align: center;
   color: #40FFB5;
   padding: 0;
-  text-shadow: 2px 2px 10px black;
 }
-
 
 .background-picture {
   display: flex;
@@ -202,9 +211,8 @@ body {
 }
 
 .footer {
-  padding: 40px!important;
-  // height: 80vh;
   position: relative;
+  justify-content: center!important;
 }
 
 .gap-10 {
@@ -212,9 +220,9 @@ body {
 }
 
 .footer-titles {
+  font-family: "Beautifully Delicious Sans";
   color: #EFEDE7;
-  font-size: 14px;
-  text-decoration: underline;
+  font-size: 25px;
   text-shadow: 2px 2px 10px black;
 }
 
@@ -224,7 +232,7 @@ body {
 
 .footer-spacing  {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 
@@ -301,7 +309,7 @@ body {
   align-self: flex-start;
   max-height: calc(100vh - 80px);
   overflow-y: auto;
-  background-color: #011712;
+  background-color: #032B22;
   color:  $light;
   padding: 40px;
   border-radius: 30px;
@@ -311,7 +319,7 @@ body {
   width: max-content;
   font-size: 50px;
   text-shadow: 2px 2px 10px black;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
   color: #efede7e6;
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
@@ -328,7 +336,7 @@ body {
   padding: 15px 80px;
   // background: #40FFB5;
   border-color: #efede7e6 !important;
-  // box-shadow: 5px 10px #011712;
+  // box-shadow: 5px 10px #032B22;
   border: solid;
   border-width: 1px;
   font-size: 20px;
@@ -336,9 +344,25 @@ body {
   margin-top: 200px;
 }
 
+.view-all-button {
+  display: inline-block;
+  align-self: center;
+  font-family: 'Beautifully Delicious Sans';
+  text-decoration: none;
+  font-size: 2rem;
+  color: #032B22;
+  padding: 15px 80px;
+  border-color: #032B22 !important;
+  border: solid;
+  border-width: 1px;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
 .button#hover {
-  background: #011712;
-  color:#40FFB5
+  background: #032B22;
+  color:#40FFB5;
 }
 
 .titles {
@@ -350,7 +374,7 @@ body {
 }
 
 .prices-div {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
   padding: 80px;
   padding-bottom: 0;
 }
@@ -361,11 +385,23 @@ body {
   padding: 40px;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #011712;
+  background-color: #032B22;
 }
 
 .blog-background {
-  background-color: #011712;
+  background-color: #FFAFDA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0rem;
+}
+
+.travel-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0rem;
+  background-color: #00634D;
 }
 
 .welcome-message {
@@ -451,16 +487,10 @@ body {
   padding: 80px 50px;
 }
 
-.blog-background {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6rem 0rem;
-}
 
 .services-container {
   padding: 70px 20px 20px 20px;
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
 }
 
 .w-30 {
@@ -488,18 +518,40 @@ body {
   height: auto;
   max-width: 400px;
   margin-bottom: 30px;
-  border-radius: 20px;
 }
 
 .blog-text {
-  max-width: 400px;
+  font-family: 'Cormorant Garamond';
+  text-decoration: none;
+  color: #032B22;
+  font-size: 17px;
+  font-weight: 300;
   margin: 0;
-  text-shadow: 2px 2px 10px black;
 }
 
-.logo-footer {
-  width: 60%;
+.travel-text {
+  font-family: 'Cormorant Garamond';
+  text-decoration: none;
+  color: #EFEDE7;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.blog-location {
+  font-family: 'Beautifully Delicious Sans';
+  text-decoration: none;
+  color: #032B22;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.footer-title {
   margin-top: 4rem;
+  font-family: "Higuen";
+  color: #40FFB5;
+  font-size: 10rem;
 }
 
 p {
@@ -526,7 +578,7 @@ p {
 .welcome-section {
   display: flex; /* Place text and photo side by side */
   align-items: stretch; /* Ensure equal height for children */
-  gap: 50px;
+  gap: 8rem;
 }
 
 h4, .h4 {

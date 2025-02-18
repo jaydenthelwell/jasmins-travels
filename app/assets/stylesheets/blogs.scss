@@ -1,6 +1,6 @@
 .banner {
   display: flex;
-  background-color: #011712;
+  background-color: #032B22;
   padding: 130px 50px 50px 50px;
   align-items: center;
   justify-content: space-evenly;
@@ -42,7 +42,7 @@
 }
 
 .blog-intro {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -101,7 +101,7 @@
 }
 
 .sign-off {
-  color: #F4CEE2;
+  color: #FFAFDA;
   font-family: "Lato", serif, sans-serif !important;
   font-weight: 300;
   font-size: 15px;
@@ -113,7 +113,7 @@
 
 .breadcrumb-container {
   padding: 20px 0px;
-  // background-color: #F4CEE2;
+  // background-color: #FFAFDA;
   border-radius: 8px;
   margin-bottom: 20px;
   width: fit-content;
@@ -133,7 +133,7 @@
 
 .breadcrumb-item a {
   text-decoration: none;
-  color: #F4CEE2!important;
+  color: #FFAFDA!important;
   transition: color 0.3s;
   font-family: "Lato", serif, sans-serif !important;
   font-weight: 300;
@@ -145,7 +145,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  color: #F4CEE2!important;
+  color: #FFAFDA!important;
 }
 
 .content-image {

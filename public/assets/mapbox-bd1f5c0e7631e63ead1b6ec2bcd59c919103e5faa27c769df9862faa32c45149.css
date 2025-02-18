@@ -1,0 +1,1 @@
+#map{border:2px solid black;width:50%;border-radius:50px}@media screen and (max-width: 767px) and (orientation: portrait){#map{width:100%}}@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait){#map{width:100%}}

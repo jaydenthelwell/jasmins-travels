@@ -13,7 +13,8 @@ Rails.application.configure do
   config.public_file_server.enabled = true
 
   config.eager_load = true
-  config.assets.compile = true
+  config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+  config.assets.compile = false
   config.assets.digest = true
 
   # Full error reports are disabled and caching is turned on.

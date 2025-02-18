@@ -28448,7 +28448,7 @@ body {
 
 /* line 261, app/assets/stylesheets/application.scss */
 .prices-div {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
   padding: 100px 0px;
 }
 
@@ -28459,12 +28459,12 @@ body {
   padding: 55px;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #011712;
+  background-color: #032B22;
 }
 
 /* line 275, app/assets/stylesheets/application.scss */
 .blog-background {
-  background-color: #011712;
+  background-color: #032B22;
 }
 
 /* line 279, app/assets/stylesheets/application.scss */

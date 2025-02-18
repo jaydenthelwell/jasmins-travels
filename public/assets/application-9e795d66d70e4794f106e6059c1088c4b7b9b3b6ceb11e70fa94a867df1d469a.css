@@ -1,7 +1,7 @@
 /* line 1, app/assets/stylesheets/blogs.scss */
 .banner {
   display: flex;
-  background-color: #011712;
+  background-color: #032B22;
   padding: 130px 50px 50px 50px;
   align-items: center;
   justify-content: space-evenly;
@@ -41,7 +41,7 @@
 
 /* line 39, app/assets/stylesheets/blogs.scss */
 .blog-intro {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -113,7 +113,7 @@
 
 /* line 100, app/assets/stylesheets/blogs.scss */
 .sign-off {
-  color: #F4CEE2;
+  color: #FFAFDA;
   font-family: 'Michroma';
   font-size: 20px;
   letter-spacing: 2px;
@@ -150,7 +150,7 @@
 /* line 131, app/assets/stylesheets/blogs.scss */
 .breadcrumb-item a {
   text-decoration: none;
-  color: #F4CEE2 !important;
+  color: #FFAFDA !important;
   transition: color 0.3s;
   font-family: 'Michroma';
 }
@@ -163,7 +163,7 @@
 
 /* line 143, app/assets/stylesheets/blogs.scss */
 .breadcrumb-item + .breadcrumb-item::before {
-  color: #F4CEE2 !important;
+  color: #FFAFDA !important;
 }
 /* line 1, app/assets/stylesheets/form.scss */
 .contact-container {
@@ -192,7 +192,7 @@
 
 /* line 22, app/assets/stylesheets/form.scss */
 .pink-background {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
 }
 
 /* line 26, app/assets/stylesheets/form.scss */
@@ -28662,7 +28662,7 @@ body {
 
 /* line 278, app/assets/stylesheets/application.scss */
 .prices-div {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
   padding: 100px 0px;
 }
 
@@ -28673,12 +28673,12 @@ body {
   padding: 100px;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #011712;
+  background-color: #032B22;
 }
 
 /* line 292, app/assets/stylesheets/application.scss */
 .blog-background {
-  background-color: #011712;
+  background-color: #032B22;
 }
 
 /* line 296, app/assets/stylesheets/application.scss */

@@ -1,7 +1,7 @@
 /* line 1, app/assets/stylesheets/blogs.scss */
 .banner {
   display: flex;
-  background-color: #011712;
+  background-color: #032B22;
   padding: 130px 50px 50px 50px;
   align-items: center;
   justify-content: space-evenly;
@@ -51,7 +51,7 @@
 
 /* line 44, app/assets/stylesheets/blogs.scss */
 .blog-intro {
-  background-color: #F4CEE2;
+  background-color: #FFAFDA;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -119,7 +119,7 @@
 
 /* line 103, app/assets/stylesheets/blogs.scss */
 .sign-off {
-  color: #F4CEE2;
+  color: #FFAFDA;
   font-family: "Lato", serif, sans-serif !important;
   font-weight: 300;
   font-size: 15px;
@@ -156,7 +156,7 @@
 /* line 134, app/assets/stylesheets/blogs.scss */
 .breadcrumb-item a {
   text-decoration: none;
-  color: #F4CEE2 !important;
+  color: #FFAFDA !important;
   transition: color 0.3s;
   font-family: "Lato", serif, sans-serif !important;
   font-weight: 300;
@@ -170,7 +170,7 @@
 
 /* line 147, app/assets/stylesheets/blogs.scss */
 .breadcrumb-item + .breadcrumb-item::before {
-  color: #F4CEE2 !important;
+  color: #FFAFDA !important;
 }
 
 /* line 151, app/assets/stylesheets/blogs.scss */
