@@ -60,10 +60,14 @@
   </section>
 
   <section id="section6" class="color-bg" style="background-color: #EFEDE7;">
-    <div class="d-flex flex-row justify-content-around m-5 areas-covered">
-      <div class="green-text areas-list">
-        <h1 class="areas-covered-title wanstead-wags-title titles text-left" style="color: #032B22">Explore by destination:</h1>
-          <ul>
+    <div class="d-flex flex-column m-5 areas-covered">
+      <div class="mb-5">
+        <h1 class="areas-covered-title wanstead-wags-title titles text-left" style="color: #00634D">Explore by destination:</h1>
+        <p class="text" style="color: #032B22;">Click on the locations on the map to explore detailed insights, including tips, tricks, and recommendations to enhance your experience.</p>
+      </div>
+      <div class="d-flex" >
+        <div class="d-flex text align-items-center" style="color: #032B22; width: max-content;">
+          <ul class="explore-list">
             <li>North Thailand</li>
             <li>Vietnam</li>
             <li>Cambodia</li>
@@ -73,13 +77,9 @@
             <li>Singapore</li>
             <li>South Thailand</li>
           </ul>
-        <p class="">If your area isn't listed above, don't hesitate to get in touch with your postcode, and we'll be happy to check if you're within our catchment zone.</p>
-        <div class="enquire-button d-flex">
-          <%= link_to("ENQUIRE NOW", new_contact_form_path, class: "text-center button mt-5") %>
         </div>
-      </div>
-      <div>
-        <%= image_tag "explore_map.png", class: "w-100"; %>
+          <%# <%= image_tag "explore_map.png", class: "explore-map"; %>
+        <div class="explore-map" id="map" style="width: 100%; height: 500px;"></div>
       </div>
     </div>
   </section>
