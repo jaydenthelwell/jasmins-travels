@@ -22,7 +22,7 @@ const locations = [
 ];
 
 locations.forEach(location => {
-  new mapboxgl.Marker()
+  new mapboxgl.Marker({ color: "#032B22" })
     .setLngLat(location.coords)
     .setPopup(new mapboxgl.Popup().setHTML(`<h3>${location.name}</h3>`))
     .addTo(map);
