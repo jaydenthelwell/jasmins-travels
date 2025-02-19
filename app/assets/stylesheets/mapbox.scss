@@ -42,11 +42,18 @@ a.mapboxgl-ctrl-logo {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  list-style-type: none;
 }
 
 .explore-list li {
+  background-image: url('/assets/marker.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+  line-height: 1.8;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-size: 20px 25px;
 }
 
 .popup-container {
