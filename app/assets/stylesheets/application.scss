@@ -115,27 +115,8 @@ body {
   font-weight: 300;
 }
 
-.explore-map {
-  width: 100%;
-  margin-left: 5%;
-  flex: 1;
-  height: auto;
-  min-height: 100%;
-}
 
-.explore-list {
-  font-size: 30px;
-  padding: 20px 50px;
-  border-style: double;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
 
-.explore-list li {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .text {
   font-family: 'Cormorant Garamond';
@@ -235,6 +216,7 @@ body {
 .footer {
   position: relative;
   justify-content: center!important;
+  padding-top: 50px!important;
 }
 
 .gap-10 {
@@ -630,21 +612,10 @@ h4, .h4 {
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
-  .areas-covered {
-    flex-direction: column!important;
-  }
-
-  .areas-list {
-    width: 100%;
-  }
-
-  .map-div {
-    width: 100%;
-  }
-
   .service {
     text-align: left!important;
   }
+
   .blog-title-signoff {
     width: 100%;
   }
@@ -670,13 +641,8 @@ h4, .h4 {
     font-size: 15px;
   }
 
-
   .form-container {
     gap: 0rem!important;
-  }
-
-  .areas-covered-title {
-    margin: 0!important;
   }
 
   .filters {
@@ -904,10 +870,6 @@ h4, .h4 {
     margin: 0px;
   }
 
-  .areas-covered {
-    margin: 0!important;
-    padding: 20px;
-  }
 
   .about-me-text {
     width: 100%;

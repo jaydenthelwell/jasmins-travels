@@ -1,11 +1,14 @@
 #map {
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
-.areas-container {
-  display: flex;
-  align-items: stretch;
-  gap: 20px;
+.custom-marker {
+  width: 40px;  /* Ensure it's big enough */
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;  /* Show hand cursor on hover */
+  pointer-events: auto;
 }
 
 .mapboxgl-ctrl-logo {
@@ -23,9 +26,61 @@ a.mapboxgl-ctrl-logo {
   top: -18px;
 }
 
+.explore-map {
+  width: 100%;
+  margin-left: 5%;
+  flex: 1;
+  height: auto;
+  min-height: 100%;
+}
+
+.explore-list {
+  font-size: 20px;
+  padding: 20px 50px;
+  border-style: double;
+  border-width: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.explore-list li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.popup-container {
+  text-align: center;
+}
+
+.popup-image {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 767px) and (orientation: portrait) {
   #map {
     width: 100%;
+  }
+
+  .areas-list {
+    width: 100%;
+  }
+
+  .map-div {
+    width: 100%;
+  }
+
+  .areas-covered-title {
+    margin: 0!important;
+  }
+
+  .areas-covered {
+    margin: 0!important;
+    padding: 20px;
+    flex-direction: column!important;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)  and (orientation: portrait) {
