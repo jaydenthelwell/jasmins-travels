@@ -115,9 +115,6 @@ body {
   font-weight: 300;
 }
 
-
-
-
 .text {
   font-family: 'Cormorant Garamond';
   text-decoration: none;
@@ -217,6 +214,22 @@ body {
   position: relative;
   justify-content: center!important;
   padding-top: 50px!important;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  align-self: center;
+  border-bottom: none;
+  display: none;
+  border-top-color: none;
+}
+
+.mapboxgl-popup-content {
+  position: relative;
+  background: none;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 0;
+  pointer-events: auto;
 }
 
 .gap-10 {

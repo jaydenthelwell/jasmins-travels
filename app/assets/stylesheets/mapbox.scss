@@ -51,14 +51,20 @@ a.mapboxgl-ctrl-logo {
 
 .popup-container {
   text-align: center;
+  font-family: "Cormorant Garamond";
+  background: #FFAFDA;
+  max-width: 200px;
+  padding: 10px;
 }
 
 .popup-image {
-  width: 150px;
-  height: 100px;
-  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
   object-fit: cover;
+  display: block;
 }
+
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
   #map {
