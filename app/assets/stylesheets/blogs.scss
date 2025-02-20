@@ -6,6 +6,7 @@
   height: 70vh;
   background-repeat: no-repeat;
   object-fit: cover;
+  position: relative;
   background-size: cover;
 }
 
@@ -31,6 +32,16 @@
   font-family: "Higuen"!important;
   color: #40FFB5;
   font-size: 50px;
+}
+
+.index-blog-title {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  font-family: "Higuen"!important;
+  background-color: #EFEDE7;
+  font-size: 70px;
+  color: #032B22;
 }
 
 .blog-photo-div {
