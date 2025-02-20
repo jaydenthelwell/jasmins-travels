@@ -1,12 +1,9 @@
 <div class="blog-container">
   <%= render 'shared/navbar' %>
-  <section id="section2" class="color-bg" style="background-color: #032B22;">
+  <section id="section8" class="blog-bg" style="height: initial;">
     <div class="banner">
       <div>
-        <h1 class="blog-title">Blogs About Dogs</h1>
-      </div>
-      <div class="blog-photo-div">
-        <%= image_tag "blogs_about_dogs.png", alt:"Picture of a Chihuaha sticking it's tongue out", class: "w-100 blog-photo" %>
+        <h1 class="blog-title">Welcome To Jasmin's Journal</h1>
       </div>
     </div>
   </section>
@@ -14,27 +11,52 @@
   <%# <section id="section3" class="color-bg" style="background-color: #FFAFDA;"> %>
   <div class="blog-section">
     <div class="blog-intro d-flex flex-column">
-      <h1 class="font-Abril title-blog-section">Trusted dog advice by professionals</h1>
-      <p class="font-michroma pt-4 blog-intro-text">The place for advice on dog behaviour, health, and nutrition, written by our pet experts and in-house vet professionals. Discover it all or explore the topics using the buttons below.</p>
+      <h1 class="title-blog-section">Authentic Travel Stories & Expert Tips</h1>
+      <p class="pt-4 blog-intro-text">  Your go-to blog for travel inspiration, cultural insights, and hidden gems across Southern Asia.
+  Dive into personal experiences, expert tips, and must-visit locations to make the most of your journey.
+  Explore it all or browse by destination below.</p>
     </div>
   </div>
   <%# </section> %>
 
   <section id="section4" class="color-bg" style="background-color: #EFEDE7;">
-    <div class="d-flex justify-content-center gap-5 filters">
+  <h1 class="filter-by">Filter by destination:</h1>
+    <div class="d-flex justify-content-center gap-3 filters">
       <a href="/blogs?category=all"
-        class="filter-button font-michroma d-flex align-items-center <%= 'active-filter' if params[:category] == 'all' || params[:category].blank? %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'all' || params[:category].blank? %>">
         All
       </a>
-
-      <a href="/blogs?category=dog_walking"
-        class="filter-button font-michroma d-flex align-items-center <%= 'active-filter' if params[:category] == 'dog_walking' %>">
-        Dog Walking
-      </a>
-
       <a href="/blogs?category=pet_care"
-        class="filter-button font-michroma d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
-        Pet Care
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        Bali
+      </a>
+      <a href="/blogs?category=pet_care"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        Cambodia
+      </a>
+      <a href="/blogs?category=pet_care"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        Japan
+      </a>
+      <a href="/blogs?category=dog_walking"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'dog_walking' %>">
+        North Thailand
+      </a>
+      <a href="/blogs?category=pet_care"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        Philippines
+      </a>
+      <a href="/blogs?category=pet_care"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        Singapore
+      </a>
+      <a href="/blogs?category=pet_care"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        South Thailand
+      </a>
+      <a href="/blogs?category=pet_care"
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        Vietnam
       </a>
     </div>
 

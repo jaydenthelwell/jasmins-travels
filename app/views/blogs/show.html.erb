@@ -1,7 +1,7 @@
 <div class="post-container">
   <%= render 'shared/navbar' %>
-  <section id="section2" class="color-bg" style="background-color: #032B22;">
-    <div class="banner">
+  <section id="section2" class="color-bg" style="background-color: #00634D;">
+    <div class="blog-banner">
       <div class="blog-title-signoff">
         <div class="breadcrumb-container">
           <ol class="breadcrumb">
@@ -45,26 +45,26 @@
 
   <%# <section id="section3" class="color-bg" style="background-color: #FFAFDA;"> %>
   <div class="blog-section">
-    <div class="blog-intro d-flex flex-column">
-      <h1 class="font-Abril title-blog-section"><%= @post.fields[:subtitle].upcase %></h1>
-      <p class="font-michroma pt-4 blog-intro-text"><%= @post.fields[:description] %></p>
+    <div class="show-blog-intro d-flex flex-column">
+      <h1 class="title-show-blog-section"><%= @post.fields[:subtitle] %></h1>
+      <p class="pt-4 show-blog-intro-text"><%= @post.fields[:description] %></p>
     </div>
   </div>
   <%# </section> %>
 
   <section id="section4" class="color-bg blog-section-content" style="background-color: #EFEDE7;">
     <div class="sticky table-of-contents mb-5">
-      <h1 class="font-Abril contents-title text-center" style="font-size: 1.5rem;">TABLE OF CONTENTS</h1>
+      <h1 class="contents-title text-center" style="font-size: 1.5rem;">Table Of Contents</h1>
       <ul>
         <% @post.fields[:table_of_contents].each do |post| %>
-          <% sanitized_id = post.parameterize %> <!-- Sanitize header text for use as an ID -->
+          <% sanitized_id = post.parameterize %>
           <li class="green-text" style="color: #EFEDE7; margin-bottom: 5px;">
             <a style="color: #1e8b65;" href="#<%= sanitized_id %>"><%= post %></a>
           </li>
         <% end %>
       </ul>
     </div>
-    <div class="green-text post-content font-michroma m-5">
+    <div class="green-text post-content m-5">
       <% if @post.fields[:content].present? %>
         <% content = @post.fields[:content]["content"] %>
 
@@ -86,7 +86,7 @@
             <% when "heading-1", "heading-2", "heading-3", "heading-4", "heading-5", "heading-6" %>
               <% # Render headings dynamically based on their type and assign unique IDs %>
               <% text = node["content"].map { |text_node| text_node["value"] }.join %>
-              <% sanitized_id = text.parameterize %> <!-- Sanitize header text for use as an ID -->
+              <% sanitized_id = text.parameterize %>
               <%= content_tag node["nodeType"].gsub("heading-", "h"), text, id: sanitized_id, class: "post-heading" %>
             <% end %>
           <% end %>
@@ -99,9 +99,9 @@
     </div>
   </section>
   <div class="blog-section">
-    <div class="blog-intro d-flex flex-column">
-      <h1 class="font-Abril title-blog-section">THANK YOU FOR READING</h1>
-      <p class="font-michroma pt-4 blog-intro-text"><%= @post.fields[:final_thoughts] %></p>
+    <div class="show-blog-intro d-flex flex-column">
+      <h1 class="title-show-blog-section">Thank You For Reading</h1>
+      <p class="pt-4 show-blog-intro-text"><%= @post.fields[:final_thoughts] %></p>
     </div>
   </div>
 </div>

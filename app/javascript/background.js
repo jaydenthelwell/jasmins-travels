@@ -34,8 +34,15 @@ function applyStylesForSection(section) {
     navbar.style.backgroundColor = window.getComputedStyle(section).backgroundColor;
   }
 
+  if (section.id === "section8" && section.classList.contains('blog-bg')) {
+    navbar.style.backgroundColor = 'transparent';
+    navbar.style.boxShadow = "none"
+  } else if (section.classList.contains('color-bg')) {
+    navbar.style.backgroundColor = window.getComputedStyle(section).backgroundColor;
+  }
+
   navbarText.forEach(link => {
-    if (["section3", "section4", "section6"].includes(section.id)) {
+    if (["section3", "section4", "section6", "section8"].includes(section.id)) {
       console.log("section 3 4 6!");
       link.style.setProperty('color', '#032B22', 'important');
       openBtn.style.color = "#032B22";
@@ -48,7 +55,7 @@ function applyStylesForSection(section) {
     }
   });
 
-  if (!["section3", "section4", "section6"].includes(section.id)) {
+  if (!["section3", "section4", "section6", "section8"].includes(section.id)) {
     logoImage.src = logoImage.dataset.defaultSrc;
   }
 }
