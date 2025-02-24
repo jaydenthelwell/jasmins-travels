@@ -287,8 +287,8 @@ body {
   font-size: 5rem;
 }
 
-.wanstead-wags  {
-  font-size: 7rem;
+.wanstead-wags {
+  font-size: 6rem;
   text-shadow: 2px 2px 100px black;
   width: max-content;
 }
@@ -334,7 +334,7 @@ body {
 
 .ww-home-services {
   width: max-content;
-  font-size: 50px;
+  font-size: 35px;
   text-shadow: 2px 2px 10px black;
   letter-spacing: 4px;
   color: #efede7e6;
@@ -397,9 +397,10 @@ body {
 }
 
 .green-background {
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 52px;
   flex-wrap: wrap;
   width: 100%;
   background-color: #032B22;
@@ -1396,12 +1397,6 @@ h4, .h4 {
     width: 60%;
   }
 
-  .green-background {
-    align-items: center;
-    flex-direction: column;
-
-  }
-
   .price-list {
     font-size: 28px;
   }
@@ -1480,11 +1475,8 @@ h4, .h4 {
 }
 
 
-
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-  .logo {
-    width: 40%;
-  }
+
   .booking-instructions {
     flex-direction: column;
     gap: 1rem;
@@ -1494,9 +1486,15 @@ h4, .h4 {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
   .logo {
     width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo {
+    width: 15%;
   }
 
   .booking-instructions {
@@ -2056,5 +2054,10 @@ h4, .h4 {
 
   .enquire-button {
     justify-content: center;
+  }
+
+  .green-background {
+    align-items: center;
+    flex-direction: column;
   }
 }
