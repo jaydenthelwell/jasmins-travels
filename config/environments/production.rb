@@ -10,10 +10,9 @@ Rails.application.configure do
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
-  config.public_file_server.enabled = true
 
   config.eager_load = true
-  config.assets.compile = false
+  config.assets.compile = true
   config.public_file_server.enabled = true
   config.assets.digest = true
   # Full error reports are disabled and caching is turned on.
@@ -46,7 +45,6 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'dry-scrubland-93754-07566f02f8c2.herokuapp.com' }
 
   # Do not fall back to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.asset_host = "http://assets.example.com"
