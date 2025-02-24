@@ -11,7 +11,7 @@ const map = new mapboxgl.Map({
 });
 
 const locations = [
-    { name: 'North Thailand', coords: [99.963, 19.432], img: 'assets/north-thailand.png' },
+    { name: 'North Thailand', coords: [99.963, 19.432], img: 'north-thailand.png' },
     { name: 'Vietnam', coords: [108.2772, 14.0583], img: 'north-thailand.png'  },
     { name: 'Cambodia', coords: [104.9910, 12.5657], img: 'north-thailand.png'  },
     { name: 'Japan', coords: [138.2529, 36.2048], img: 'north-thailand.png'  },
