@@ -42,6 +42,7 @@ a.mapboxgl-ctrl-logo {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  justify-content: center;
   list-style-type: none;
 }
 
@@ -51,8 +52,8 @@ a.mapboxgl-ctrl-logo {
   background-position: left center;
   padding-left: 30px;
   line-height: 1.8;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-size: 20px 25px;
 }
 
