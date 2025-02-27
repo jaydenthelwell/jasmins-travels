@@ -1,16 +1,26 @@
 <div class="blog-container">
   <%= render 'shared/navbar' %>
-  <section id="section8" class="blog-bg" style="height: initial;">
+  <section id="section8" class="blog-bg">
     <div class="banner">
       <div>
         <h1 class="index-blog-title">Welcome To Jasmin's Journal</h1>
       </div>
     </div>
   </section>
+    <section id="section9" class="color-bg" style="background-color: #FFAFDA;">
+      <div class="banner">
+        <div>
+          <h1 class="blog-title">Welcome To Jasmin's Journal</h1>
+        </div>
+        <div class="blog-photo-div">
+          <%= image_tag "blog_cover_image.png", alt:"Picture of a Chihuaha sticking it's tongue out", class: "w-100 blog-photo" %>
+        </div>
+      </div>
+    </section>
 
   <%# <section id="section3" class="color-bg" style="background-color: #FFAFDA;"> %>
   <div class="blog-section">
-    <div class="blog-intro d-flex flex-column">
+    <div class="blog-intro d-flex flex-column" style="background-color: #032B22;">
       <h1 class="title-blog-section">Authentic Travel Stories & Expert Tips</h1>
       <p class="pt-4 blog-intro-text">  Your go-to blog for travel inspiration, cultural insights, and hidden gems across Southern Asia.
   Dive into personal experiences, expert tips, and must-visit locations to make the most of your journey.
