@@ -412,7 +412,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 0rem;
+  padding: 4rem 0rem;
 }
 
 .travel-stories {
@@ -554,7 +554,7 @@ body {
   font-family: 'Cormorant Garamond';
   text-decoration: none;
   color: #032B22;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 300;
   margin: 0;
 }
@@ -816,7 +816,7 @@ h4, .h4 {
   }
 
   .padding-text {
-    font-size: 18px;
+    font-size: 20px;
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -902,10 +902,6 @@ h4, .h4 {
 
   .about-me {
     flex-direction: column;
-  }
-
-  .welcome {
-    padding: 10px 0 0 0;
   }
 }
 
