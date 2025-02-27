@@ -7,3 +7,4 @@ import "bootstrap"
 import 'background';
 import 'mapbox';
 import "controllers";
+import 'video';

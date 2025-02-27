@@ -1,7 +1,7 @@
 <div class="landing-container">
   <%= render 'shared/navbar' %>
   <section id="section1" class="video-bg">
-    <video autoplay loop muted class="video-bg">
+    <video autoplay muted loop playsinline class="video-bg">
       <source src="<%= asset_path('jasmins_blog_opening_video.mp4') %>" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -31,7 +31,7 @@
     <div class="blog-background">
       <h1 class="welcome wanstead-wags-title titles d-flex justify-content-center mb-5" style="color: #032B22;">Blog Catalogue</h1>
       <div class="blog-posts container mt-4 m-0">
-        <div class="row">
+        <div class="row gap-1">
           <% @posts.each_with_index do |post, index| %>
             <% if index < 3 %>
               <div class="col-md-4 mb-4">
