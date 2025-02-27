@@ -5,6 +5,12 @@
       <source src="<%= asset_path('jasmins_blog_opening_video.mp4') %>" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <script>
+      window.addEventListener('load', function() {
+        var video = document.getElementById('myVideo');
+        video.play();
+      });
+    </script>
     <div class="background-picture">
       <div class="ww-home-text d-flex justify-content-center align-items-center flex-column">
         <h1 class="ww-home-services text-center" style="font-family: Beautifully Delicious Sans; font-size: 20px;">Welcome To</h1>
@@ -55,7 +61,7 @@
           <% end %>
         </div>
       </div>
-      <%= link_to("VIEW ALL", blogs_path, class:"home-button button mt-1") %>
+      <%= link_to("VIEW ALL", blogs_path, class:"home-button button mt-1", style:"border-color: #032B22; color: #032B22;") %>
     </div>
   </section>
 
