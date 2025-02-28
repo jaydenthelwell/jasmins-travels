@@ -48,7 +48,7 @@
 }
 
 .post-heading {
-  scroll-margin-top: 300px; /* Adjust this value based on your navbar height */
+  scroll-margin-top: 300px;
 }
 
 .blog-banner {
@@ -281,6 +281,9 @@ html {
 
   #section11 {
     display: block;
+  }
+  #section10 {
+    display: none;
   }
 
   #section8 {

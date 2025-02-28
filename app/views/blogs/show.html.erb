@@ -1,7 +1,7 @@
 <div class="post-container">
   <%= render 'shared/navbar' %>
 
-  <section id="section11" class="color-bg" style="background-color: rgb(239, 237, 231);">
+  <section id="section11" class="color-bg" style="background-color: #032B22">
     <div class="banner show-banner" style="padding-top: 60px;">
       <div class="blog-title-signoff">
         <div class="breadcrumb-container">
@@ -26,7 +26,7 @@
           </ol>
         </div>
         <div>
-          <h1 class="blog-title"style="color: #40FFB5"><%= @post.fields[:title] %></h1>
+          <h1 class="blog-title" style="color: #40FFB5"><%= @post.fields[:title] %></h1>
           <p class="sign-off">Written by <%= @post.fields[:written_by] %></p>
           <p class="sign-off"><%= @post.fields[:date].strftime("%B %d, %Y") %></p>
 
@@ -43,7 +43,7 @@
     </div>
   </section>
 
-  <section id="section10" class="color-bg" style="background-color: #rgb(239, 237, 231); background-image: url('<%= "https:" + @post.fields[:blog_image].url %>'); background-size: cover; background-position: center;">
+  <section id="section10" class="color-bg" style="background-color: #EFEDE7; background-image: url('<%= "https:" + @post.fields[:blog_image].url %>'); background-size: cover; background-position: center;">
     <div class="banner show-banner" style="padding-top: 60px;">
       <div class="show-blog-title blog-title-signoff">
         <div class="breadcrumb-container">
