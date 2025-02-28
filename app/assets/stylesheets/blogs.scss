@@ -18,6 +18,31 @@
   height: 70vh;
 }
 
+#section10 {
+  display: block;
+  // background-image: url('<%= "https:" + @post.fields[:blog_image].url %>');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  height: 70vh;
+}
+
+#section11 {
+  display: none;
+}
+
+.show-blog-title {
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+  font-family: "Higuen" !important;
+  background-color: #032B22;
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
 .contents-title {
   font-family: 'Higuen';
 }
@@ -254,6 +279,10 @@ html {
     display: block;
   }
 
+  #section11 {
+    display: block;
+  }
+
   #section8 {
     display: none;
   }
@@ -404,7 +433,15 @@ html {
     display: none;
   }
 
+  #section11 {
+    display: none;
+  }
+
   #section8 {
+    display: block;
+  }
+
+  #section10 {
     display: block;
   }
 
@@ -512,7 +549,15 @@ html {
     display: none;
   }
 
+  #section11 {
+    display: none;
+  }
+
   #section8 {
+    display: block;
+  }
+
+  #section10 {
     display: block;
   }
 }
@@ -578,7 +623,15 @@ html {
     display: block;
   }
 
+  #section11 {
+    display: block;
+  }
+
   #section8 {
+    display: none;
+  }
+
+  #section10 {
     display: none;
   }
 }
@@ -605,7 +658,15 @@ html {
     display: block;
   }
 
+  #section11 {
+    display: block;
+  }
+
   #section8 {
+    display: none;
+  }
+
+  #section10 {
     display: none;
   }
 }
