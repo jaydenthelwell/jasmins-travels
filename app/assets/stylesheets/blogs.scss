@@ -65,7 +65,7 @@
 .blog-title {
   font-family: "Higuen"!important;
   color: #032B22;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .index-blog-title {
@@ -210,12 +210,13 @@
   font-size: 15px;
 }
 
-.blog-title-signoff {
-  width: 50%;
-}
+// .blog-title-signoff {
+//   max-width: 50%;
+// }
 
 .breadcrumb-container {
   padding: 20px 0px;
+  padding-top: 0;
   // background-color: #FFAFDA;
   border-radius: 8px;
   // margin-bottom: 20px;
@@ -318,7 +319,7 @@ html {
   }
 
   .banner {
-    padding: 130px 30px 50px 30px;
+    padding: 130px 15px 50px 15px;
     flex-direction: column;
   }
 
