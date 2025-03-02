@@ -26,9 +26,9 @@
           </ol>
         </div>
         <div>
-          <h1 class="blog-title" style="color: #032B22"><%= @post.fields[:title] %></h1>
-          <p class="sign-off" style="color: #032B22">Written by <%= @post.fields[:written_by] %></p>
-          <p class="sign-off" style="color: #032B22"><%= @post.fields[:date].strftime("%B %d, %Y") %></p>
+          <h1 class="blog-title"><%= @post.fields[:title] %></h1>
+          <p class="sign-off">Written by <%= @post.fields[:written_by] %></p>
+          <p class="sign-off"><%= @post.fields[:date].strftime("%B %d, %Y") %></p>
 
         </div>
       </div>

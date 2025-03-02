@@ -239,7 +239,7 @@
 .breadcrumb-item a {
   font-weight: 900;
   text-decoration: none;
-  color: #032B22!important;
+  color: #FFAFDA!important;
   transition: color 0.3s;
   font-family: "Beautifully Delicious Sans";
 }
@@ -250,7 +250,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  color: #032B22!important;
+  color: #FFAFDA!important;
 }
 
 .content-image {
@@ -410,8 +410,27 @@ html {
     margin-bottom: 30px!important;
   }
 
+  .breadcrumb-item a {
+    color:#032B22!important;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: #032B22!important;
+  }
+
   .blog {
     max-width: 300px;
+  }
+
+  .footer-gap {
+    gap: 2rem!important;
+  }
+
+  .sign-off {
+    color: #032B22!important;
+    font-family: "Beautifully Delicious Sans";
+    font-weight: 900;
+    font-size: 15px;
   }
 
   .blogs-description {

@@ -285,6 +285,10 @@
     display: flex;
     justify-content: flex-end;
   }
+
+  .show-page .navbar-options-text {
+    padding:0;
+  }
 }
 
 @media screen and (max-height: 450px) {
