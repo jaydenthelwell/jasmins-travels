@@ -1,0 +1,42 @@
+/* line 1, app/assets/stylesheets/form.scss */
+.contact-container {
+  background-image: url(/assets/paw_wallpaper-840aaff7751b93f0f9fcfc0c3300b12d00460e6e561fbe6fff356d458d10dce6.png);
+}
+
+/* line 5, app/assets/stylesheets/form.scss */
+.form-container {
+  font-family: "Lato", serif, sans-serif !important;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  font-weight: 300;
+}
+
+/* line 14, app/assets/stylesheets/form.scss */
+.form-group {
+  font-size: 15px;
+  margin: 30px 0px;
+}
+
+/* line 19, app/assets/stylesheets/form.scss */
+.label {
+  margin-right: 40px;
+}
+
+/* line 23, app/assets/stylesheets/form.scss */
+.pink-background {
+  background-color: #FFAFDA;
+}
+
+/* line 27, app/assets/stylesheets/form.scss */
+.contact-form {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 30px 30px 30px;
+}
+
+/* line 32, app/assets/stylesheets/form.scss */
+.header {
+  font-family: "Abril Fatface", serif;
+}

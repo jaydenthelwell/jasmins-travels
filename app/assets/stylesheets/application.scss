@@ -21,9 +21,16 @@ $pink: hsla(294.17,100%,79.8%,1);
 @import "bootstrap";
 @import "font-awesome";
 
+
 @font-face {
   font-family: 'Beautifully Delicious Sans';
-  src: url(asset-url('/fonts/BDSans-Thin.otf')) format('opentype');
+  src: url('<%= font_url("BDSans-Thin.eot") %>');
+  src: url('<%= font_url("BDSans-Thin.eot?#iefix") %>') format('embedded-opentype'),
+        url('<%= font_url("BDSans-Thin.otf") %>') format('opentype'),
+        url('<%= font_url("BDSans-Thin.woff2") %>') format('woff2'),
+        url('<%= font_url("BDSans-Thin.woff") %>') format('woff'),
+        url('<%= font_url("BDSans-Thin.ttf") %>') format('truetype'),
+        url('<%= font_url("BDSans-Thin.svg#BDSans-Thin") %>') format('svg');
 }
 
 @font-face {

@@ -1,0 +1,744 @@
+/* line 1, app/assets/stylesheets/blogs.scss */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 7, app/assets/stylesheets/blogs.scss */
+#section9 {
+  display: none;
+}
+
+/* line 11, app/assets/stylesheets/blogs.scss */
+#section8 {
+  display: block;
+  background-image: url(/assets/blog_cover_image-9b38293e00cf301d9ceb0de71acb9fbf3f8c5418ae9bdb3992c55fc3b06e7613.png);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  background-size: cover;
+  height: 70vh;
+}
+
+/* line 21, app/assets/stylesheets/blogs.scss */
+#section10 {
+  display: block;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  background-size: cover;
+  height: 70vh;
+}
+
+/* line 32, app/assets/stylesheets/blogs.scss */
+#section11 {
+  display: none;
+}
+
+/* line 36, app/assets/stylesheets/blogs.scss */
+.show-blog-title {
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+  font-family: "Higuen" !important;
+  background-color: #032B22;
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+/* line 47, app/assets/stylesheets/blogs.scss */
+.contents-title {
+  font-family: 'Higuen';
+}
+
+/* line 51, app/assets/stylesheets/blogs.scss */
+.post-heading {
+  scroll-margin-top: 300px;
+}
+
+/* line 55, app/assets/stylesheets/blogs.scss */
+.blog-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 77vh;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+}
+
+/* line 65, app/assets/stylesheets/blogs.scss */
+.blog-title {
+  font-family: "Higuen" !important;
+  color: #032B22;
+  font-size: 35px;
+}
+
+/* line 71, app/assets/stylesheets/blogs.scss */
+.index-blog-title {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  font-family: "Higuen" !important;
+  background-color: #EFEDE7;
+  font-size: 40px;
+  color: #032B22;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+/* line 83, app/assets/stylesheets/blogs.scss */
+.blog-photo-div {
+  width: 40%;
+}
+
+/* line 87, app/assets/stylesheets/blogs.scss */
+.blog-photo {
+  border-radius: 30px !important;
+}
+
+/* line 91, app/assets/stylesheets/blogs.scss */
+.post-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  gap: 2rem;
+}
+
+/* line 99, app/assets/stylesheets/blogs.scss */
+.blog-section {
+  margin-bottom: 50px;
+}
+
+/* line 103, app/assets/stylesheets/blogs.scss */
+.filters {
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* line 111, app/assets/stylesheets/blogs.scss */
+.blogs-row {
+  padding-bottom: 60px;
+}
+
+/* line 115, app/assets/stylesheets/blogs.scss */
+.blog-intro {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 75px 150px;
+  background-color: #FFAFDA;
+}
+
+/* line 123, app/assets/stylesheets/blogs.scss */
+.show-blog-intro {
+  background-color: #FFAFDA;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 75px 150px;
+}
+
+/* line 131, app/assets/stylesheets/blogs.scss */
+.font-Abril {
+  font-family: "Abril Fatface", serif !important;
+}
+
+/* line 135, app/assets/stylesheets/blogs.scss */
+.font-michroma {
+  font-family: "Lato", serif, sans-serif !important;
+  font-weight: 300;
+}
+
+/* line 140, app/assets/stylesheets/blogs.scss */
+.title-blog-section {
+  font-family: "Higuen";
+  font-size: 30px;
+  color: #40FFB5;
+}
+
+/* line 146, app/assets/stylesheets/blogs.scss */
+.title-show-blog-section {
+  font-family: "Higuen";
+  font-size: 25px;
+  color: #032B22;
+}
+
+/* line 152, app/assets/stylesheets/blogs.scss */
+.blog-intro-text {
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+  color: #EFEDE7;
+}
+
+/* line 158, app/assets/stylesheets/blogs.scss */
+.show-blog-intro-text {
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+  color: #032B22;
+}
+
+/* line 164, app/assets/stylesheets/blogs.scss */
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #EFEDE7 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* line 173, app/assets/stylesheets/blogs.scss */
+.filter-by {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Beautifully Delicious Sans';
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+/* line 181, app/assets/stylesheets/blogs.scss */
+.post-link {
+  text-decoration: none;
+}
+
+/* line 185, app/assets/stylesheets/blogs.scss */
+.filter-button {
+  font-family: 'Beautifully Delicious Sans';
+  background-color: #EFEDE7;
+  border-radius: 40px;
+  padding: 10px 30px;
+  transition: background-color 0.3s, color 0.3s;
+  border: solid;
+  color: #032B22;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* line 197, app/assets/stylesheets/blogs.scss */
+.active-filter {
+  background-color: #032B22 !important;
+  color: #EFEDE7 !important;
+}
+
+/* line 202, app/assets/stylesheets/blogs.scss */
+.filter-button:hover {
+  background-color: #D0D0D0;
+}
+
+/* line 206, app/assets/stylesheets/blogs.scss */
+.sign-off {
+  color: #FFAFDA;
+  font-family: "Beautifully Delicious Sans";
+  font-weight: 900;
+  font-size: 15px;
+}
+
+/* line 217, app/assets/stylesheets/blogs.scss */
+.breadcrumb-container {
+  padding: 20px 0px;
+  padding-top: 0;
+  border-radius: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+/* line 226, app/assets/stylesheets/blogs.scss */
+.breadcrumb {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0 !important;
+}
+
+/* line 234, app/assets/stylesheets/blogs.scss */
+.breadcrumb-item {
+  font-size: 15px;
+}
+
+/* line 238, app/assets/stylesheets/blogs.scss */
+.breadcrumb-item a {
+  font-weight: 900;
+  text-decoration: none;
+  color: #FFAFDA !important;
+  transition: color 0.3s;
+  font-family: "Beautifully Delicious Sans";
+}
+
+/* line 246, app/assets/stylesheets/blogs.scss */
+.breadcrumb-item.active {
+  color: #6c757d;
+  pointer-events: none;
+}
+
+/* line 251, app/assets/stylesheets/blogs.scss */
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #FFAFDA !important;
+}
+
+/* line 255, app/assets/stylesheets/blogs.scss */
+.content-image {
+  width: 100%;
+  height: auto !important;
+  display: block;
+  border-radius: 40px;
+}
+
+/* line 262, app/assets/stylesheets/blogs.scss */
+.post-heading {
+  font-size: 30px;
+  font-family: "Higuen" !important;
+  font-weight: 300;
+}
+
+/* line 268, app/assets/stylesheets/blogs.scss */
+.blog-section-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 273, app/assets/stylesheets/blogs.scss */
+html {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  /* line 280, app/assets/stylesheets/blogs.scss */
+  #section9 {
+    display: block;
+  }
+  /* line 284, app/assets/stylesheets/blogs.scss */
+  #section11 {
+    display: block;
+  }
+  /* line 287, app/assets/stylesheets/blogs.scss */
+  #section10 {
+    display: none;
+  }
+  /* line 291, app/assets/stylesheets/blogs.scss */
+  #section8 {
+    display: none;
+  }
+  /* line 295, app/assets/stylesheets/blogs.scss */
+  .blog-title-signoff {
+    width: 100%;
+  }
+  /* line 299, app/assets/stylesheets/blogs.scss */
+  .blogs-row {
+    padding-bottom: 30px;
+  }
+  /* line 303, app/assets/stylesheets/blogs.scss */
+  .filter-button {
+    padding: 15px 30px;
+  }
+  /* line 307, app/assets/stylesheets/blogs.scss */
+  .filter-button a {
+    font-size: 10px;
+  }
+  /* line 311, app/assets/stylesheets/blogs.scss */
+  .filters {
+    gap: 0.5rem !important;
+    padding-bottom: 10px;
+  }
+  /* line 316, app/assets/stylesheets/blogs.scss */
+  .blog-intro {
+    padding: 30px 20px;
+    margin-bottom: 25px;
+  }
+  /* line 321, app/assets/stylesheets/blogs.scss */
+  .banner {
+    padding: 130px 15px 50px 15px;
+    flex-direction: column;
+  }
+  /* line 326, app/assets/stylesheets/blogs.scss */
+  .blog-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  /* line 333, app/assets/stylesheets/blogs.scss */
+  .breadcrumb-container {
+    margin-bottom: 0px !important;
+  }
+  /* line 337, app/assets/stylesheets/blogs.scss */
+  .blog-container-home {
+    margin: 0 20px !important;
+    gap: 20px;
+  }
+  /* line 342, app/assets/stylesheets/blogs.scss */
+  .blog-images {
+    margin-bottom: 10px;
+  }
+  /* line 346, app/assets/stylesheets/blogs.scss */
+  .sticky.table-of-contents {
+    position: initial !important;
+    align-self: initial !important;
+    margin-bottom: 0 !important;
+  }
+  /* line 352, app/assets/stylesheets/blogs.scss */
+  .contents-title {
+    text-align: center;
+  }
+  /* line 356, app/assets/stylesheets/blogs.scss */
+  .post-content {
+    width: 100%;
+    margin: 1rem !important;
+  }
+  /* line 361, app/assets/stylesheets/blogs.scss */
+  .blog-photo-div {
+    width: 100%;
+    padding-top: 30px;
+  }
+  /* line 366, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    font-size: 30px;
+  }
+  /* line 370, app/assets/stylesheets/blogs.scss */
+  .blog-section {
+    padding: 0;
+  }
+  /* line 374, app/assets/stylesheets/blogs.scss */
+  .blog-intro {
+    padding: 30px 30px;
+  }
+  /* line 378, app/assets/stylesheets/blogs.scss */
+  .blog-intro-text {
+    font-size: 15px;
+  }
+  /* line 382, app/assets/stylesheets/blogs.scss */
+  .title-blog-section {
+    font-size: 25px;
+  }
+  /* line 386, app/assets/stylesheets/blogs.scss */
+  .filter-by {
+    font-size: 1rem;
+  }
+  /* line 390, app/assets/stylesheets/blogs.scss */
+  .blog-posts {
+    gap: 3rem;
+    margin-bottom: 40px;
+  }
+  /* line 395, app/assets/stylesheets/blogs.scss */
+  .pb-30 {
+    padding-bottom: 30px;
+  }
+  /* line 399, app/assets/stylesheets/blogs.scss */
+  .blog-background {
+    padding-top: 20px !important;
+  }
+  /* line 403, app/assets/stylesheets/blogs.scss */
+  .blog-text {
+    max-width: 350px;
+    font-size: 15px;
+  }
+  /* line 408, app/assets/stylesheets/blogs.scss */
+  .welcome {
+    margin-bottom: 30px !important;
+  }
+  /* line 412, app/assets/stylesheets/blogs.scss */
+  .blog {
+    max-width: 300px;
+  }
+  /* line 416, app/assets/stylesheets/blogs.scss */
+  .blogs-description {
+    max-width: 350px;
+    font-size: 19px;
+    padding-bottom: 5px;
+  }
+  /* line 422, app/assets/stylesheets/blogs.scss */
+  .blog-section {
+    margin: 0;
+  }
+  /* line 426, app/assets/stylesheets/blogs.scss */
+  .welcome-section {
+    gap: 2rem !important;
+  }
+  /* line 430, app/assets/stylesheets/blogs.scss */
+  .welcome-message {
+    gap: 0;
+  }
+}
+
+@media screen and (max-height: 440px) {
+  /* line 437, app/assets/stylesheets/blogs.scss */
+  #section9 {
+    display: none;
+  }
+  /* line 441, app/assets/stylesheets/blogs.scss */
+  #section11 {
+    display: none;
+  }
+  /* line 445, app/assets/stylesheets/blogs.scss */
+  #section8 {
+    display: block;
+  }
+  /* line 449, app/assets/stylesheets/blogs.scss */
+  #section10 {
+    display: block;
+  }
+  /* line 453, app/assets/stylesheets/blogs.scss */
+  .blog-text {
+    max-width: 350px;
+    font-size: 12px;
+  }
+  /* line 458, app/assets/stylesheets/blogs.scss */
+  .blog-title-signoff {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* line 463, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    text-align: left;
+  }
+  /* line 467, app/assets/stylesheets/blogs.scss */
+  .banner {
+    flex-direction: initial;
+    padding: 130px 50px 50px 50px;
+  }
+  /* line 472, app/assets/stylesheets/blogs.scss */
+  .blog-photo-div {
+    width: 90%;
+  }
+  /* line 476, app/assets/stylesheets/blogs.scss */
+  .table-of-contents {
+    margin: 0 40px;
+  }
+  /* line 480, app/assets/stylesheets/blogs.scss */
+  .blog-posts {
+    gap: 3rem;
+    margin-bottom: 40px;
+  }
+  /* line 485, app/assets/stylesheets/blogs.scss */
+  .blog-background {
+    padding: 0 0 55px 0px;
+  }
+  /* line 489, app/assets/stylesheets/blogs.scss */
+  .blog-text {
+    max-width: 350px;
+    font-size: 12px;
+  }
+  /* line 494, app/assets/stylesheets/blogs.scss */
+  .blog {
+    max-width: 300px;
+  }
+  /* line 498, app/assets/stylesheets/blogs.scss */
+  .blogs-description {
+    max-width: 350px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  /* line 507, app/assets/stylesheets/blogs.scss */
+  .banner {
+    padding: 130px 50px;
+    flex-direction: column;
+  }
+  /* line 512, app/assets/stylesheets/blogs.scss */
+  .blog-intro {
+    padding: 50px 50px;
+  }
+  /* line 516, app/assets/stylesheets/blogs.scss */
+  .blog-intro-text {
+    font-size: 18px;
+  }
+  /* line 520, app/assets/stylesheets/blogs.scss */
+  .blog-photo-div {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  /* line 528, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    font-size: 50px;
+    text-align: left;
+  }
+  /* line 533, app/assets/stylesheets/blogs.scss */
+  .blog-posts {
+    gap: 4rem;
+  }
+  /* line 537, app/assets/stylesheets/blogs.scss */
+  .blog {
+    max-width: 350px;
+  }
+  /* line 541, app/assets/stylesheets/blogs.scss */
+  .blog-photo-div {
+    width: 50%;
+  }
+  /* line 545, app/assets/stylesheets/blogs.scss */
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  /* line 553, app/assets/stylesheets/blogs.scss */
+  #section9 {
+    display: none;
+  }
+  /* line 557, app/assets/stylesheets/blogs.scss */
+  #section11 {
+    display: none;
+  }
+  /* line 561, app/assets/stylesheets/blogs.scss */
+  #section8 {
+    display: block;
+  }
+  /* line 565, app/assets/stylesheets/blogs.scss */
+  #section10 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px) {
+  /* line 571, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  /* line 577, app/assets/stylesheets/blogs.scss */
+  .blog-title-signoff {
+    width: 100%;
+  }
+  /* line 580, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    text-align: left;
+  }
+  /* line 583, app/assets/stylesheets/blogs.scss */
+  .blog-section-content {
+    padding: 30px;
+  }
+  /* line 587, app/assets/stylesheets/blogs.scss */
+  .breadcrumb-item {
+    font-size: 19px;
+  }
+  /* line 591, app/assets/stylesheets/blogs.scss */
+  .blogs-description {
+    font-size: 25px;
+  }
+  /* line 595, app/assets/stylesheets/blogs.scss */
+  .sign-off {
+    font-size: 19px;
+  }
+  /* line 599, app/assets/stylesheets/blogs.scss */
+  .banner {
+    padding: 130px 50px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+  }
+  /* line 606, app/assets/stylesheets/blogs.scss */
+  .blog-intro-text {
+    font-size: 18px;
+  }
+  /* line 610, app/assets/stylesheets/blogs.scss */
+  .blog-intro {
+    padding: 50px 50px;
+  }
+  /* line 614, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    font-size: 50px;
+    margin: 50px 0;
+    text-align: left;
+  }
+  /* line 620, app/assets/stylesheets/blogs.scss */
+  .blog-photo-div {
+    width: 100%;
+  }
+  /* line 623, app/assets/stylesheets/blogs.scss */
+  .blog-posts {
+    gap: 2rem;
+  }
+  /* line 627, app/assets/stylesheets/blogs.scss */
+  #section9 {
+    display: block;
+  }
+  /* line 631, app/assets/stylesheets/blogs.scss */
+  #section11 {
+    display: block;
+  }
+  /* line 635, app/assets/stylesheets/blogs.scss */
+  #section8 {
+    display: none;
+  }
+  /* line 639, app/assets/stylesheets/blogs.scss */
+  #section10 {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 819px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  /* line 645, app/assets/stylesheets/blogs.scss */
+  .blog-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  /* line 652, app/assets/stylesheets/blogs.scss */
+  .sticky.table-of-contents {
+    position: initial !important;
+    align-self: initial !important;
+    margin-bottom: 0 !important;
+  }
+  /* line 658, app/assets/stylesheets/blogs.scss */
+  .post-content {
+    width: 100%;
+  }
+  /* line 662, app/assets/stylesheets/blogs.scss */
+  #section9 {
+    display: block;
+  }
+  /* line 666, app/assets/stylesheets/blogs.scss */
+  #section11 {
+    display: block;
+  }
+  /* line 670, app/assets/stylesheets/blogs.scss */
+  #section8 {
+    display: none;
+  }
+  /* line 674, app/assets/stylesheets/blogs.scss */
+  #section10 {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  /* line 680, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    font-size: 50px;
+  }
+  /* line 684, app/assets/stylesheets/blogs.scss */
+  .blog-posts {
+    gap: 4rem;
+  }
+  /* line 688, app/assets/stylesheets/blogs.scss */
+  .blog {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 769px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  /* line 694, app/assets/stylesheets/blogs.scss */
+  .blog-title {
+    font-size: 70px;
+  }
+}

@@ -1,0 +1,326 @@
+/* line 1, app/assets/stylesheets/navbar.scss */
+.navbar {
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  padding: 25px;
+  width: 100%;
+  padding-bottom: 0;
+  position: fixed !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* line 14, app/assets/stylesheets/navbar.scss */
+.book-here-button {
+  color: black;
+  padding: 20px;
+  background: #40FFB5;
+  border-radius: 10px;
+}
+
+/* line 21, app/assets/stylesheets/navbar.scss */
+.container-fluid {
+  margin: 0em !important;
+}
+
+/* line 25, app/assets/stylesheets/navbar.scss */
+.navbar-text {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  font-family: "Beautifully Delicious Sans" !important;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+/* line 32, app/assets/stylesheets/navbar.scss */
+.navbar-text a {
+  font-size: 16px;
+}
+
+/* line 36, app/assets/stylesheets/navbar.scss */
+.navbar-text-color {
+  color: #EFEDE7 !important;
+}
+
+/* line 40, app/assets/stylesheets/navbar.scss */
+.btn {
+  --bs-btn-padding-x: 0rem!important;
+  --bs-btn-padding-y: 0rem!important;
+}
+
+/* line 45, app/assets/stylesheets/navbar.scss */
+.btn-secondary {
+  margin-right: 1rem;
+  --bs-btn-bg: #6c757d00!important;
+  --bs-btn-border-color: #6c757d00!important;
+  --bs-btn-hover-bg: none!important;
+  --bs-btn-hover-border-color: none!important;
+}
+
+/* line 53, app/assets/stylesheets/navbar.scss */
+.dropdown {
+  position: relative;
+}
+
+/* line 57, app/assets/stylesheets/navbar.scss */
+.navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  display: flex !important;
+  flex-wrap: inherit !important;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  justify-content: initial !important;
+}
+
+/* line 75, app/assets/stylesheets/navbar.scss */
+.navbar-fixed-color.scrolled {
+  color: black;
+  transition: background-color 100ms linear;
+}
+
+/* line 80, app/assets/stylesheets/navbar.scss */
+.navbar-fixed-icon.scrolled {
+  color: black;
+  transition: background-color 100ms linear;
+}
+
+/* line 85, app/assets/stylesheets/navbar.scss */
+.dropdown-toggle.scrolled {
+  color: black;
+}
+
+/* line 89, app/assets/stylesheets/navbar.scss */
+.openbtn.scrolled {
+  color: black;
+}
+
+/* line 93, app/assets/stylesheets/navbar.scss */
+.badge.scrolled {
+  color: black;
+}
+
+/* line 97, app/assets/stylesheets/navbar.scss */
+.navbar-icon {
+  color: #EFEDE7;
+}
+
+/* line 101, app/assets/stylesheets/navbar.scss */
+.navbar-collapse {
+  max-width: 50px;
+}
+
+/* line 105, app/assets/stylesheets/navbar.scss */
+.nav-container {
+  gap: 90px;
+  position: relative;
+  z-index: 200;
+}
+
+/* line 111, app/assets/stylesheets/navbar.scss */
+.navbar-options-text {
+  font-size: 16px;
+  transition: 2s;
+}
+
+/* line 116, app/assets/stylesheets/navbar.scss */
+.navbar-options-text:hover {
+  text-decoration: underline;
+}
+
+/* line 120, app/assets/stylesheets/navbar.scss */
+.navbar-brand {
+  width: 30%;
+}
+
+/* line 124, app/assets/stylesheets/navbar.scss */
+.position-profile-basket {
+  position: relative;
+  bottom: 1.9rem;
+}
+
+/* line 129, app/assets/stylesheets/navbar.scss */
+.nav-options {
+  display: none;
+}
+
+/* line 133, app/assets/stylesheets/navbar.scss */
+.gap {
+  gap: 3rem;
+}
+
+/* line 137, app/assets/stylesheets/navbar.scss */
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 143, app/assets/stylesheets/navbar.scss */
+.navbar-toggler {
+  border: none !important;
+}
+
+/* line 147, app/assets/stylesheets/navbar.scss */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #032B22;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* line 161, app/assets/stylesheets/navbar.scss */
+.sidebar a {
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #EFEDE7;
+  display: block;
+  transition: 0.3s;
+}
+
+/* line 170, app/assets/stylesheets/navbar.scss */
+.sidebar a:hover {
+  color: #EFEDE7;
+  text-decoration: none;
+}
+
+/* line 175, app/assets/stylesheets/navbar.scss */
+.sidebar .closebtn {
+  color: #EFEDE7;
+  font-size: 30px;
+  padding: 0;
+  right: 20px;
+}
+
+/* line 182, app/assets/stylesheets/navbar.scss */
+.closebtn {
+  position: absolute !important;
+  top: 0 !important;
+}
+
+/* line 187, app/assets/stylesheets/navbar.scss */
+.options-text {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+/* line 191, app/assets/stylesheets/navbar.scss */
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #EFEDE7;
+  border: none;
+  padding: 0 !important;
+}
+
+/* line 200, app/assets/stylesheets/navbar.scss */
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* line 204, app/assets/stylesheets/navbar.scss */
+#main {
+  transition: margin-left .5s;
+}
+
+/* line 208, app/assets/stylesheets/navbar.scss */
+.logo {
+  width: 15%;
+}
+
+/* line 212, app/assets/stylesheets/navbar.scss */
+.show-page .navbar-options-text {
+  color: #EFEDE7 !important;
+  background: #032b22 !important;
+  padding: 15px !important;
+}
+
+/* line 218, app/assets/stylesheets/navbar.scss */
+.show-page .logo {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* line 224, app/assets/stylesheets/navbar.scss */
+  .logo-div {
+    width: 40%;
+  }
+  /* line 228, app/assets/stylesheets/navbar.scss */
+  .logo {
+    width: 30%;
+  }
+  /* line 232, app/assets/stylesheets/navbar.scss */
+  .sidebar a {
+    font-size: 20px;
+  }
+  /* line 236, app/assets/stylesheets/navbar.scss */
+  .position-profile-basket {
+    bottom: 0rem;
+  }
+  /* line 240, app/assets/stylesheets/navbar.scss */
+  .nav-container {
+    gap: 0px;
+  }
+  /* line 244, app/assets/stylesheets/navbar.scss */
+  .gap {
+    gap: 0rem;
+  }
+  /* line 248, app/assets/stylesheets/navbar.scss */
+  .navbar-options-text {
+    font-size: 15px;
+    transition: 2s;
+  }
+  /* line 253, app/assets/stylesheets/navbar.scss */
+  .navbar {
+    /* position: sticky; */
+    padding: 35px 25px 35px 0px;
+  }
+  /* line 258, app/assets/stylesheets/navbar.scss */
+  .options {
+    display: none !important;
+  }
+  /* line 262, app/assets/stylesheets/navbar.scss */
+  .navbar > .container-fluid {
+    display: grid !important;
+    align-items: center;
+  }
+  /* line 267, app/assets/stylesheets/navbar.scss */
+  .nav-icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 272, app/assets/stylesheets/navbar.scss */
+  .pye-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+  }
+  /* line 280, app/assets/stylesheets/navbar.scss */
+  .navbar-brand {
+    width: 45%;
+  }
+  /* line 284, app/assets/stylesheets/navbar.scss */
+  .basket-profile {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  /* line 291, app/assets/stylesheets/navbar.scss */
+  .sidebar {
+    padding-top: 40px;
+  }
+  /* line 295, app/assets/stylesheets/navbar.scss */
+  .sidebar a {
+    font-size: 20px;
+  }
+}
