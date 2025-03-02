@@ -1,7 +1,7 @@
 <div class="landing-container">
   <%= render 'shared/navbar' %>
   <section id="section1" class="video-bg">
-    <video autoplay muted loop playsinline class="video-bg">
+    <video class="video-bg"  autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;"  preload="auto">
       <source src="<%= asset_path('jasmins_blog_opening_video.mp4') %>" type="video/mp4">
       Your browser does not support the video tag.
     </video>
