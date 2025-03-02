@@ -622,6 +622,11 @@ p {
   gap: 8rem;
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+
 h4, .h4 {
   font-size: calc(1rem + 0.3vw);
 }

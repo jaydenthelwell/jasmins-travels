@@ -50,7 +50,7 @@ function applyStylesForSection(section) {
   }
 
   navbarText.forEach(link => {
-    if (["section3", "section5", "section4", "section6", "section9"].includes(section.id)) {
+    if (["section3", "section5", "section4", "section6", "section9", "section11"].includes(section.id)) {
       console.log("section 3 4 6!");
       link.style.setProperty('color', '#032B22', 'important');
       openBtn.style.color = "#032B22";
@@ -63,7 +63,7 @@ function applyStylesForSection(section) {
     }
   });
 
-  if (!["section3", "section5", "section4", "section6", "section9", "section10"].includes(section.id)) {
+  if (!["section3", "section5", "section4", "section6", "section9", "section10", "section11"].includes(section.id)) {
     logoImage.src = logoImage.dataset.defaultSrc;
   }
 }

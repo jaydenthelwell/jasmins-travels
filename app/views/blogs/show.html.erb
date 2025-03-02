@@ -1,7 +1,7 @@
 <div class="post-container show-page">
   <%= render 'shared/navbar' %>
 
-  <section id="section11" class="color-bg" style="background-color: #032B22">
+  <section id="section11" class="color-bg" style="background-color: #EFEDE7;" >
     <div class="banner show-banner" style="padding-top: 90px;">
       <div class="blog-title-signoff">
         <div class="breadcrumb-container">
@@ -26,9 +26,9 @@
           </ol>
         </div>
         <div>
-          <h1 class="blog-title" style="color: #40FFB5"><%= @post.fields[:title] %></h1>
-          <p class="sign-off">Written by <%= @post.fields[:written_by] %></p>
-          <p class="sign-off"><%= @post.fields[:date].strftime("%B %d, %Y") %></p>
+          <h1 class="blog-title" style="color: #032B22"><%= @post.fields[:title] %></h1>
+          <p class="sign-off" style="color: #032B22">Written by <%= @post.fields[:written_by] %></p>
+          <p class="sign-off" style="color: #032B22"><%= @post.fields[:date].strftime("%B %d, %Y") %></p>
 
         </div>
       </div>
@@ -93,7 +93,7 @@
         <% @post.fields[:table_of_contents].each do |post| %>
           <% sanitized_id = post.parameterize %>
           <li class="green-text" style="color: #EFEDE7; margin-bottom: 5px;">
-            <a style="color: #1e8b65;" href="#<%= sanitized_id %>"><%= post %></a>
+            <a style="color: #38cb98;" href="#<%= sanitized_id %>"><%= post %></a>
           </li>
         <% end %>
       </ul>
