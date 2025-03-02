@@ -21,7 +21,15 @@ $pink: hsla(294.17,100%,79.8%,1);
 @import "bootstrap";
 @import "font-awesome";
 
+@font-face {
+  font-family: 'Beautifully Delicious Sans';
+  src: url(asset-url('/fonts/BDSans-Thin.otf')) format('opentype');
+}
 
+@font-face {
+  font-family: 'Higuen';
+  src: url(asset-url('/fonts/Higuen-Serif.otf')) format('opentype');
+}
 
 table {
   background-color: transparent;
@@ -1746,14 +1754,4 @@ h4, .h4 {
   .welcome-section {
     gap: 2rem!important;
   }
-}
-
-@font-face {
-  font-family: 'Beautifully Delicious Sans';
-  src: url(asset-url('/fonts/BDSans-Thin.otf')) format('opentype');
-}
-
-@font-face {
-  font-family: 'Higuen';
-  src: url(asset-url('/fonts/Higuen-Serif.otf')) format('opentype');
 }
