@@ -2,6 +2,18 @@
   border-radius: 20px;
 }
 
+.areas-covered {
+  margin: 3rem;
+}
+
+.areas-covered-title {
+  text-align: left;
+}
+
+.mapbox {
+  gap: 8rem;
+}
+
 .custom-marker {
   width: 40px;  /* Ensure it's big enough */
   height: 50px;
@@ -95,6 +107,12 @@ a.mapboxgl-ctrl-logo {
     margin: 0!important;
     padding: 20px;
     flex-direction: column!important;
+  }
+
+  .mapbox {
+    gap: 0rem;
+    width: 90%;
+    justify-content: space-between;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)  and (orientation: portrait) {

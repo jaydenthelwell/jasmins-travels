@@ -1192,8 +1192,8 @@ h4, .h4 {
   }
 
   .blog-title {
-    font-size: 50px;
-    margin: 50px 0;
+    font-size: 40px;
+    // margin: 50px 0;
     text-align: left;
   }
 
@@ -1517,11 +1517,6 @@ h4, .h4 {
     margin-top: 3rem;
   }
 
-  .areas-covered {
-    margin-top: 0!important;
-    flex-direction: column;
-    gap: 40px;
-  }
 
   .areas-list {
     width: 100%;
@@ -1730,10 +1725,6 @@ h4, .h4 {
 }
 
 @media only screen and (max-width: 1020px) {
-  .areas-covered {
-    flex-direction: column!important;
-    gap: 3rem;
-  }
 
   .areas-list {
     width: 100%;

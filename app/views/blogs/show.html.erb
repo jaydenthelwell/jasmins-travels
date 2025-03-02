@@ -1,4 +1,4 @@
-<div class="post-container">
+<div class="post-container show-page">
   <%= render 'shared/navbar' %>
 
   <section id="section11" class="color-bg" style="background-color: #032B22">
@@ -43,7 +43,7 @@
     </div>
   </section>
 
-  <section id="section10" class="color-bg" style="background-color: #EFEDE7; background-image: url('<%= "https:" + @post.fields[:blog_image].url %>'); background-size: cover; background-position: center;">
+  <section id="section10" class="blog-bg" style="background-color: #EFEDE7; background-image: url('<%= "https:" + @post.fields[:blog_image].url %>'); background-size: cover; background-position: center;">
     <div class="banner show-banner" style="padding-top: 60px;">
       <div class="show-blog-title blog-title-signoff">
         <div class="breadcrumb-container">
