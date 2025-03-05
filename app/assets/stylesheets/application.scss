@@ -224,6 +224,7 @@ body {
   position: relative;
   padding-top: 50px!important;
   padding-bottom: 0!important;
+  gap: 5rem;
 }
 
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
@@ -249,8 +250,8 @@ body {
 .footer-titles {
   font-family: "Beautifully Delicious Sans";
   color: #EFEDE7;
-  font-size: 25px;
-  text-shadow: 2px 2px 10px black;
+  font-size: 20px;
+  // text-shadow: 2px 2px 10px black;
 }
 
 .text-container {
@@ -260,6 +261,7 @@ body {
 .footer-spacing  {
   display: flex;
   width: 100%;
+  justify-content: stretch;
 }
 
 .footer-gap {
@@ -268,9 +270,9 @@ body {
 
 .footer-text {
   color: #EFEDE7;
-  font-size: 20px;
+  font-size: 15px;
   width: max-content;
-  text-shadow: 2px 2px 10px black;
+  // text-shadow: 2px 2px 10px black;
 }
 
 .doggy-picture {
