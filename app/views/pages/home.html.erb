@@ -67,9 +67,8 @@
             <h1 class="areas-covered-title wanstead-wags-title titles text-left" style="color: #00634D">Explore by destination:</h1>
             <p class="text" style="color: #032B22;">Click on the locations on the map to explore detailed insights, including tips, tricks, and recommendations to enhance your experience.</p>
           </div>
-          <div>
-            <%= image_tag "tickets.png", class: "tickets" %>
-          </div>
+        <div class="ticket-container">
+          <%= image_tag "tickets.svg", class:"ticket-image", alt:"Ticket" %>
         </div>
       </div>
       <div class="d-flex mapbox" >
@@ -151,13 +150,4 @@
       <%= link_to("VIEW ALL", blogs_path, class:"home-button button mt-1") %>
     </div>
   </section>
-
-  <section id="instagram-photos">
-    <h2>Follow my instagram for more</h2>
-    <p>@jasminbains</p>
-    <div class="instagram-feed">
-      <iframe src="https://www.instagram.com/p/POST_ID/embed" width="400" height="480" frameborder="0"></iframe>
-    </div>
-  </section>
-
 </div>
