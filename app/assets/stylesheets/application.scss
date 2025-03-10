@@ -32,13 +32,17 @@ $pink: hsla(294.17,100%,79.8%,1);
 }
 
 @font-face {
+  font-family: 'Sorts Mill Goudy';
+  src: url("SortsMillGoudy-Regular.ttf") format('truetype');
+}
+
+@font-face {
   font-family: 'Higuen';
   src: url("Higuen-Regular.eot") format('embedded-opentype'),
         url("Higuen-Serif.otf") format('opentype'),
         url("Higuen-Regular.woff2") format('woff2'),
         url("Higuen-Regular.woff") format('woff'),
         url("Higuen-Regular.ttf") format('truetype');
-
 }
 
 table {
