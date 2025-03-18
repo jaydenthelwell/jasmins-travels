@@ -726,6 +726,7 @@ h4, .h4 {
   .footer {
     height: auto;
     padding: 10px!important;
+    gap: 2rem;
   }
 
   .footer-text {
@@ -1255,7 +1256,7 @@ h4, .h4 {
   }
 
   .logo {
-    width: 15%;
+    width: 5%;
   }
 
   .price-list {
@@ -1348,13 +1349,13 @@ h4, .h4 {
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
   .logo {
-    width: 15%;
+    width: 5%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .logo {
-    width: 10%;
+    width: 5%;
   }
 
   .booking-instructions {
@@ -1491,7 +1492,7 @@ h4, .h4 {
   }
 
   .logo {
-    width: 15%;
+    width: 5%;
   }
 
   .sidebar a {
@@ -1717,7 +1718,7 @@ h4, .h4 {
   }
 
   .logo {
-    width: 15%;
+    width: 5%;
   }
 }
 

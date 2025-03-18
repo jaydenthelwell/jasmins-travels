@@ -145,7 +145,7 @@ a.mapboxgl-ctrl-logo {
 
   .areas-covered {
     margin: 0!important;
-    padding: 20px;
+    padding: 40px 20px;
     flex-direction: column!important;
   }
 
@@ -166,8 +166,20 @@ a.mapboxgl-ctrl-logo {
     height: 100%;
   }
 
+  .explore-text {
+    text-align: center;
+  }
+
   .explore-list {
-    padding: 0px 15px;
+    border-style: double;
+    border-width: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+    flex-direction: row;
   }
 }
 
