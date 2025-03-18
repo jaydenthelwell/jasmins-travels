@@ -50,9 +50,15 @@ function applyStylesForSection(section) {
   }
 
   navbarText.forEach(link => {
-    if (["section3", "section5", "section4", "section6", "section9", "section11"].includes(section.id)) {
-      console.log("section 3 4 6!");
+    if (["section3", "section5", "section6", "section9", "section11"].includes(section.id)) {
+      console.log("section 3 5 6 9 11!");
       link.style.setProperty('color', '#032B22', 'important');
+      openBtn.style.color = "#032B22";
+      link.style.setProperty('text-shadow', '', 'important');
+      logoImage.src = logoImage.dataset.darkSrc;
+    } else if ("section4") {
+      console.log("section 4!");
+      link.style.setProperty('color', '#EFEDE7', 'important');
       openBtn.style.color = "#032B22";
       link.style.setProperty('text-shadow', '', 'important');
       logoImage.src = logoImage.dataset.darkSrc;
@@ -62,6 +68,7 @@ function applyStylesForSection(section) {
       link.style.setProperty('text-shadow', '2px 2px 4px rgba(0, 0, 0, 0.5)', 'important');
     }
   });
+
 
   if (!["section3", "section5", "section4", "section6", "section9", "section10", "section11"].includes(section.id)) {
     logoImage.src = logoImage.dataset.defaultSrc;
