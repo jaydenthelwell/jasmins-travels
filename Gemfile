@@ -21,6 +21,7 @@ gem 'react-rails'
 gem 'sassc-rails'
 gem 'sprockets-rails'
 gem 'zeitwerk', '< 2.7.0'
+gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'font-awesome-sass'
 gem 'contentful'
