@@ -13,7 +13,7 @@
           <h1 class="blog-title">Welcome To Jasmin's Journal</h1>
         </div>
         <div class="blog-photo-div">
-          <%= image_tag "blog_cover_image.JPG", alt:"Picture of a Chihuaha sticking it's tongue out", class: "w-100 blog-photo" %>
+          <%= image_tag "blog_cover_image.jpg", alt:"Picture of the sunset", class: "w-100 blog-photo" %>
         </div>
       </div>
     </section>
@@ -37,31 +37,31 @@
         All
       </a>
       <a href="/blogs?category=pet_care"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'bali' %>">
         Bali
       </a>
       <a href="/blogs?category=pet_care"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'cambodia' %>">
         Cambodia
       </a>
       <a href="/blogs?category=dog_walking"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'dog_walking' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == ' north_thailand' %>">
         North Thailand
       </a>
       <a href="/blogs?category=pet_care"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'philippines' %>">
         Philippines
       </a>
       <a href="/blogs?category=pet_care"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'singapore' %>">
         Singapore
       </a>
       <a href="/blogs?category=pet_care"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'south_thailand' %>">
         South Thailand
       </a>
       <a href="/blogs?category=pet_care"
-        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'pet_care' %>">
+        class="filter-button d-flex align-items-center <%= 'active-filter' if params[:category] == 'vietnam' %>">
         Vietnam
       </a>
     </div>
@@ -69,7 +69,7 @@
     <div class="container mt-4">
       <div class="row blogs-row">
         <% @posts.each do |post| %>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4 ">
             <a href="<%= blogs_post_path(post.fields[:slug]) %>" class="post-link">
               <div class="post card">
                 <% if post.fields[:blog_image].present? %>

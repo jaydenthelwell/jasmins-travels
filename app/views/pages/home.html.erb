@@ -34,7 +34,7 @@
         <div class="row blog-container-home">
           <% @posts.each_with_index do |post, index| %>
             <% if index < 3 %>
-              <div class="col-md-4 mb-4">
+              <div class="col-md-4 mb-4 w-100">
                 <a href="<%= blogs_post_path(post.fields[:slug]) %>" class="post-link">
                   <div class="d-flex flex-column align-items-center">
                     <% if post.fields[:blog_image].present? %>
@@ -96,7 +96,7 @@
         <div class="row blog-container-home">
           <% @posts.each_with_index do |post, index| %>
             <% if index < 3 %>
-              <div class="col-md-4 mb-4">
+              <div class="md-4 mb-4 w-100">
                 <a href="<%= blogs_post_path(post.fields[:slug]) %>" class="post-link">
                   <div class="d-flex flex-column align-items-center">
                     <% if post.fields[:blog_image].present? %>
