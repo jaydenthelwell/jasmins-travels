@@ -62,15 +62,15 @@
   <section id="section6" class="color-bg" style="background-color: #EFEDE7;">
     <div class="d-flex flex-column areas-covered">
       <div class="">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between explore">
           <div>
             <h1 class="areas-covered-title wanstead-wags-title titles text-left" style="color: #00634D">Explore by destination:</h1>
-            <p class="text" style="color: #032B22;">Click on the locations on the map to explore detailed insights, including tips, tricks, and recommendations to enhance your experience.</p>
+            <p class="text text-center" style="color: #032B22;">Click on the locations on the map to explore detailed insights, including tips, tricks, and recommendations to enhance your experience.</p>
           </div>
-        <div class="ticket-container">
-          <%= image_tag "tickets.svg", class:"ticket-image", alt:"Ticket" %>
+          <div class="ticket-container">
+            <%= image_tag "tickets.svg", class:"ticket-image", alt:"Ticket" %>
+          </div>
         </div>
-      </div>
       <div class="d-flex mapbox" >
         <div class="d-flex text align-items-center" style="color: #032B22; width: max-content;">
           <ul class="explore-list">
@@ -87,37 +87,6 @@
       </div>
     </div>
   </section>
-
-<style>
-  .explore-map-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    margin-top: 20px; /* Optional: add some space above the map */
-  }
-
-  @media (max-width: 768px) {
-    .explore-map-container {
-      padding-bottom: 75%; /* 4:3 aspect ratio for mobile screens */
-    }
-  }
-
-  /* Ensure the list doesn't interfere with the map */
-  .explore-list {
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-  }
-
-  .explore-list li {
-    cursor: pointer;
-  }
-
-  .explore-list li:hover {
-    color: #00634D; /* Optional: add hover effect */
-  }
-</style>
 
 
   <section id="section7" class="color-bg" style="background-color: #00634D;">
