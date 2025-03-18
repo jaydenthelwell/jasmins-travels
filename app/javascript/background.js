@@ -61,7 +61,7 @@ function applyStylesForSection(section) {
       link.style.setProperty('color', '#EFEDE7', 'important');
       openBtn.style.color = "#032B22";
       link.style.setProperty('text-shadow', '', 'important');
-      logoImage.src = logoImage.dataset.darkSrc;
+      logoImage.src = logoImage.dataset.backgroundSrc;
     } else {
       openBtn.style.color = "#EFEDE7";
       link.style.setProperty('color', '', 'important');
