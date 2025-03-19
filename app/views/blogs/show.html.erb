@@ -1,6 +1,7 @@
 <div class="post-container show-page">
   <%= render 'shared/navbar' %>
 
+
   <section id="section11" class="color-bg" style="background-color: #EFEDE7;" >
     <div class="banner show-banner" style="padding-top: 90px;">
       <div class="blog-title-signoff">
@@ -122,30 +123,49 @@
           <% sanitized_id = text.parameterize %>
           <%= content_tag node["nodeType"].gsub("heading-", "h"), text, id: sanitized_id, class: "post-heading" %>
 
-        <% when "unordered-list" %>
-          <ul>
-            <% node["content"].each do |list_item| %>
-              <% Rails.logger.debug "List item content: #{list_item.inspect}" %>  <!-- Log the list item -->
-              <% if list_item["nodeType"] == "list-item" %>
-                <li>
-                  <% item_text = list_item["content"].map do |text_node|
-                    Rails.logger.debug "Text node: #{text_node.inspect}"  # Log text node
-                    case text_node["nodeType"]
-                    when "text"
-                      text_node["value"]
-                    when "hyperlink"
-                      link_text = text_node["content"].map { |child_node| child_node["value"] }.join
-                      link_url = text_node["data"]["uri"]
-                      "<a href='#{link_url}'>#{link_text}</a>"
-                    else
-                      ""
-                    end
-                  end.join %>
-                  <%= item_text.html_safe %> <!-- Render text content safely -->
-                </li>
-              <% end %>
+      <% when "unordered-list" %>
+        <ul>
+          <% node["content"].each do |list_item| %>
+            <% Rails.logger.debug "List item content: #{list_item.inspect}" %>  <!-- Log the list item content -->
+
+            <% if list_item["nodeType"] == "list-item" %>
+              <li>
+                <%
+                # Extract the text content from the list item
+                item_text = list_item["content"].map do |text_node|
+                  Rails.logger.debug "Text node: #{text_node.inspect}"  # Log each text node
+
+                  case text_node["nodeType"]
+                  when "paragraph"
+                    # Handle paragraph content and extract text inside paragraphs
+                    paragraph_text = text_node["content"].map do |child_node|
+                      if child_node["nodeType"] == "text"
+                        Rails.logger.debug "Paragraph Text: #{child_node['value']}" # Log paragraph text
+                        child_node["value"]
+                      else
+                        ""
+                      end
+                    end.join
+                    paragraph_text
+                  when "hyperlink"
+                    link_text = text_node["content"].map { |child_node| child_node["value"] }.join
+                    link_url = text_node["data"]["uri"]
+                    # Log hyperlink content
+                    Rails.logger.debug "Hyperlink: #{link_text}, URL: #{link_url}"
+                    "<a href='#{link_url}'>#{link_text}</a>"
+                  else
+                    ""
+                  end
+                end.join
+
+                Rails.logger.debug "Item Text: #{item_text}"  # Log the final text content of the list item
+                %>
+                <%= item_text.html_safe %>  <!-- Render text content safely -->
+              </li>
             <% end %>
-          </ul>
+          <% end %>
+        </ul>
+
 
         <% end %>
       <% end %>

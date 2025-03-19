@@ -27,8 +27,11 @@ module ContentfulHelper
   private
 
   def render_text_content(node)
-    # Extract the text content from the node, handling nested content
-    node['content'].map { |c| c['value'] }.join
+    return '' if node['content'].blank?
+
+    node['content'].map do |c|
+      c['value'] if c['nodeType'] == 'text' # Only extract text content from text nodes
+    end.compact.join(' ') # Join the text content with spaces
   end
 
   def render_unordered_list(node)
@@ -38,8 +41,36 @@ module ContentfulHelper
   end
 
   def render_list_item(node)
-    # Render individual list item
-    "<li>#{render_text_content(node)}</li>"
+    # Debugging: Log the entire node to check its structure
+    Rails.logger.debug "Rendering List Item Node: #{node.inspect}"
+
+    # Initialize a variable to store the list item content
+    list_item_content = ''
+
+    # Iterate through the content array
+    node['content'].each do |child_node|
+      Rails.logger.debug "Child Node: #{child_node.inspect}" # Log each child node
+
+      # Check if the child node is a paragraph
+      next unless child_node['nodeType'] == 'paragraph'
+
+      Rails.logger.debug 'Paragraph found in list item' # Log if a paragraph is found
+
+      # Extract the text content from the paragraph's content
+      child_node['content'].each do |text_node|
+        Rails.logger.debug "Text Node: #{text_node.inspect}" # Log each text node
+        if text_node['nodeType'] == 'text'
+          # Append the text value to list_item_content
+          list_item_content += text_node['value']
+        end
+      end
+    end
+
+    # Debugging: Log the final content of the list item
+    Rails.logger.debug "Final List Item Content: '#{list_item_content.strip}'"
+
+    # Return the content wrapped in <li> tags
+    "<li>#{list_item_content.strip}</li>".html_safe
   end
 
   def render_embedded_asset(node)
