@@ -590,6 +590,10 @@ body {
   margin: 0;
 }
 
+.explore-item {
+  color: #032B22;
+}
+
 .blog-location {
   font-family: 'Beautifully Delicious Sans';
   text-decoration: none;
@@ -1507,6 +1511,12 @@ h4, .h4 {
   .text-container {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .explore-by-destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-spacing  {
