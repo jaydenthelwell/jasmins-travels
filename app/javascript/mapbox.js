@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamF5ZGVudGhlbHdlbGwwMiIsImEiOiJjbTZ0cndyaTgwN
 const getZoomLevel = () => {
   if (window.innerWidth <= 480) return 2;
   if (window.innerWidth <= 768) return 2.5;
-  return 3.3;
+  return 2;
 };
 
 const map = new mapboxgl.Map({
