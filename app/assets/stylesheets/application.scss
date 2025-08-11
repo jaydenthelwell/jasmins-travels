@@ -580,6 +580,9 @@ body {
   font-weight: 300;
   margin: 0;
 }
+#map {
+  overflow: visible !important;
+}
 
 .travel-text {
   font-family: 'Cormorant Garamond';
@@ -928,6 +931,7 @@ h4, .h4 {
     flex-wrap: wrap;
   }
 
+
   .services-images {
     width: 70%;
     max-width: 300px;
@@ -956,6 +960,13 @@ h4, .h4 {
 
   .about-me {
     flex-direction: column;
+  }
+
+  .explore-by-desti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -1660,7 +1671,7 @@ h4, .h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)  and (orientation: portrait) {
 
   .padding-text {
-    font-size: 40px!important;
+    font-size: 30px !important;
   }
 
   .service-name {
@@ -1682,6 +1693,7 @@ h4, .h4 {
 
   .welcome-section {
     gap: 40px;
+    flex-direction: column;
   }
 
   .wanstead-wags-title {
